@@ -1,0 +1,49 @@
+---
+title: "Capstone"
+author: "Narcel Reedus"
+date: "July 2, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+
+# Capstone 1
+## Capstone Project
+List homes for sale in a 10 mile radius of a Whole Foods Market near Philadelphia
+
+## What is the problem you want to solve?
+I want to design a service that limits the online homebuying search to a highly specific and niche location. I want to display the houses for sale within a 10 mile radius of a Whole Foods Market near Philadelphia.
+
+## Who is your client and why do they care about this problem? In other words, what will your client DO or DECIDE based on your analysis that they wouldn't have otherwise?
+ 
+My wife and I is the client for this phase of the Capstone project. We are interested in finding a home in a Philadelphia suburb that is in close proximity to a Whole Foods Market. We prefer to buy a home that is in close proximity to a Whole Foods Market.
+
+## What data are you going to use for this? How will you acquire this data?
+ 
+I will combine the Google map API, Whole Foods Market locations API, and RETS API to deliver a map of homes for sale within 10 miles of each Whole Foods Market in the U.S. 
+ 
+The RETS API is an open-source client software offered by Trulia that makes Multiple Listing Service (MLS) source code available for free. 
+ 
+## In brief, outline your approach to solving this problem (knowing that this might change later).
+ 
+1. Selecting the Whole Foods location using the Google Map API.
+2. Find the Whole Foods Market usng the Whole Foods Market location API. 
+3. Use RETS API to find homes for sale within 10 miles of selected Whole Foods Market. 
+4. Use APIs to deliver a map showing homes for sale within a 10 mile radius of Whole Foods Market.
+
+## What are your deliverables? Typically, this would include code, along with a paper and/or a slide deck.
+
+* Code
+* Website
+* Blog post
+* Link to github 
+
+## Summary
+The idea is to offer a niche website that offers a very specific service to an affluent, highly educated, and health conscious homebuyer. This service is not for everyone and its limited selection eliminates the average homebuyer while providing sophisticated buyers an exclusive online home buying search experience.    
+
+git remote add origin git@github.com:nreedus/SpringboardCapstone.git
+git push -u origin master
