@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "---\ntitle: \"Capstone\"\nauthor: \"Narcel Reedus\"\ndate: \"July 2, 2017\"\noutput: html_document\n---\n\n```{r setup, include=FALSE}\nknitr::opts_chunk$set(echo = TRUE)\n\n```\n\n\n# Capstone 1\n## Capstone Project\nList homes for sale in a 10 mile radius of a Whole Foods Market near Philadelphia\n\n## What is the problem you want to solve?\nI want to design a service that limits the online homebuying search to a highly specific and niche location. I want to display the houses for sale within a 10 mile radius of a Whole Foods Market near Philadelphia.\n\n## Who is your client and why do they care about this problem? In other words, what will your client DO or DECIDE based on your analysis that they wouldn't have otherwise?\n \nMy wife and I is the client for this phase of the Capstone project. We are interested in finding a home in a Philadelphia suburb that is in close proximity to a Whole Foods Market. We prefer to buy a home that is in close proximity to a Whole Foods Market.\n\n## What data are you going to use for this? How will you acquire this data?\n \nI will combine the Google map API, Whole Foods Market locations API, and RETS API to deliver a map of homes for sale within 10 miles of each Whole Foods Market in the U.S. \n \nThe RETS API is an open-source client software offered by Trulia that makes Multiple Listing Service (MLS) source code available for free. \n \n## In brief, outline your approach to solving this problem (knowing that this might change later).\n \n1. Selecting the Whole Foods location using the Google Map API.\n2. Find the Whole Foods Market usng the Whole Foods Market location API. \n3. Use RETS API to find homes for sale within 10 miles of selected Whole Foods Market. \n4. Use APIs to deliver a map showing homes for sale within a 10 mile radius of Whole Foods Market.\n\n## What are your deliverables? Typically, this would include code, along with a paper and/or a slide deck.\n\n* Code\n* Website\n* Blog post\n* Link to github \n\n## Summary\nThe idea is to offer a niche website that offers a very specific service to an affluent, highly educated, and health conscious homebuyer. This service is not for everyone and its limited selection eliminates the average homebuyer while providing sophisticated buyers an exclusive online home buying search experience.    \n\ngit remote add origin git@github.com:nreedus/SpringboardCapstone.git\ngit push -u origin master\n",
+    "created" : 1499030238767.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4094027345",
+    "id" : "EF1204F6",
+    "lastKnownWriteTime" : 1499030870,
+    "last_content_update" : 1499030870022,
+    "path" : "D:/Springboard/Reedus.Capstone",
+    "project_path" : null,
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "text"
+}
